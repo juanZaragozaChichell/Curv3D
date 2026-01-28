@@ -1,6 +1,6 @@
 ================================================================================
-OPTIMIZATION LOG - reparation_2
-Timestamp: 2026-01-21 03:28:50
+OPTIMIZATION LOG - reparation
+Timestamp: 2026-01-28 22:28:04
 ================================================================================
 
 HYPERPARAMETERS:
@@ -9,55 +9,55 @@ HYPERPARAMETERS:
   max_K: 100
   seed: 4
   popsize: 48
-  xdim: 706
-  maxfeval: 141200
-  expected_generations: 2.941667e+03
+  xdim: 779
+  maxfeval: 155800
+  expected_generations: 3.245833e+03
   bounds_H_min: 0
-  bounds_H_max: 8.769001960754395
+  bounds_H_max: 8.768743515014648
   bounds_n_levelsets_min: 2.900000e+01
   bounds_n_levelsets_max: 2.190000e+02
-  alfa: 5.000000e-01
+  alfa: 2.000000e-01
   nozzle_half_angle: 7.853982e-01
   min_thickness: 4.000000e-02
   max_thickness: 3.000000e-01
-  surface_to_print: reparation_2
+  surface_to_print: reparation
   H_init_method: default
   sigma0: 1.000000e-03
 
 INITIAL MEASURES:
 --------------------------------------------------------------------------------
-  score: 3.578030e+06
-  collision_score: 0.000000e+00
+  score: 4.008728e+09
+  collision_score: 4.000000e+09
   distance_score: 0.000000e+00
-  smallest_distance: 5.748091e-02
-  biggest_distance: 1.621989e-01
-  min_error: -1.341535e-01
-  max_error: 1.668781e-02
-  n_levelsets: 124
+  smallest_distance: 1.237917e-01
+  biggest_distance: 2.901198e-01
+  min_error: -2.033681e-01
+  max_error: 3.573796e-02
+  n_levelsets: 67
 
 FINAL OPTIMIZED MEASURES:
 --------------------------------------------------------------------------------
-  score: 2.041675e+06
+  score: 4.662732e+06
   collision_score: 0.000000e+00
   distance_score: 0.000000e+00
-  smallest_distance: 4.092064e-02
-  biggest_distance: 1.662335e-01
-  min_error: -1.308514e-01
-  max_error: 1.308101e-02
-  n_levelsets: 124
+  smallest_distance: 7.726356e-02
+  biggest_distance: 2.998506e-01
+  min_error: -1.829711e-01
+  max_error: 3.045309e-02
+  n_levelsets: 67
 
 PERFORMANCE METRICS:
 --------------------------------------------------------------------------------
-  Total Iterations: 2942
-  Total Optimization Time: 26137.41 seconds (435.62 minutes)
-  Average Time per Iteration: 8.86 seconds
+  Total Iterations: 3246
+  Total Optimization Time: 16734.62 seconds (278.91 minutes)
+  Average Time per Iteration: 5.11 seconds
 
 IMPROVEMENT SUMMARY:
 --------------------------------------------------------------------------------
-  Score Improvement: 1.536355e+06 (42.94%)
-  Min Error Change: -1.341535e-01 -> -1.308514e-01
-  Max Error Change: 1.668781e-02 -> 1.308101e-02
-  Number of Layers Change: 124 -> 124
+  Score Improvement: 4.004065e+09 (99.88%)
+  Min Error Change: -2.033681e-01 -> -1.829711e-01
+  Max Error Change: 3.573796e-02 -> 3.045309e-02
+  Number of Layers Change: 67 -> 67
 
 ================================================================================
 END OF LOG
