@@ -1,0 +1,64 @@
+================================================================================
+OPTIMIZATION LOG - reparation_2
+Timestamp: 2026-01-21 03:28:50
+================================================================================
+
+HYPERPARAMETERS:
+--------------------------------------------------------------------------------
+  K: 90
+  max_K: 100
+  seed: 4
+  popsize: 48
+  xdim: 706
+  maxfeval: 141200
+  expected_generations: 2.941667e+03
+  bounds_H_min: 0
+  bounds_H_max: 8.769001960754395
+  bounds_n_levelsets_min: 2.900000e+01
+  bounds_n_levelsets_max: 2.190000e+02
+  alfa: 5.000000e-01
+  nozzle_half_angle: 7.853982e-01
+  min_thickness: 4.000000e-02
+  max_thickness: 3.000000e-01
+  surface_to_print: reparation_2
+  H_init_method: default
+  sigma0: 1.000000e-03
+
+INITIAL MEASURES:
+--------------------------------------------------------------------------------
+  score: 3.578030e+06
+  collision_score: 0.000000e+00
+  distance_score: 0.000000e+00
+  smallest_distance: 5.748091e-02
+  biggest_distance: 1.621989e-01
+  min_error: -1.341535e-01
+  max_error: 1.668781e-02
+  n_levelsets: 124
+
+FINAL OPTIMIZED MEASURES:
+--------------------------------------------------------------------------------
+  score: 2.041675e+06
+  collision_score: 0.000000e+00
+  distance_score: 0.000000e+00
+  smallest_distance: 4.092064e-02
+  biggest_distance: 1.662335e-01
+  min_error: -1.308514e-01
+  max_error: 1.308101e-02
+  n_levelsets: 124
+
+PERFORMANCE METRICS:
+--------------------------------------------------------------------------------
+  Total Iterations: 2942
+  Total Optimization Time: 26137.41 seconds (435.62 minutes)
+  Average Time per Iteration: 8.86 seconds
+
+IMPROVEMENT SUMMARY:
+--------------------------------------------------------------------------------
+  Score Improvement: 1.536355e+06 (42.94%)
+  Min Error Change: -1.341535e-01 -> -1.308514e-01
+  Max Error Change: 1.668781e-02 -> 1.308101e-02
+  Number of Layers Change: 124 -> 124
+
+================================================================================
+END OF LOG
+================================================================================
