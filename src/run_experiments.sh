@@ -1,0 +1,2 @@
+conda activate curvedSlicing
+python run_multiple_optimizations.py
